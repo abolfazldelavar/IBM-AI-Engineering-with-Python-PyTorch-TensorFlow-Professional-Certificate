@@ -1,0 +1,521 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:12.680
+For many years, data science has been called the sexiest job of the 21st century, but in
+
+2
+00:00:12.680 --> 00:00:17.799
+recent years, it seems like there's a new job vying for that title, the AI engineer.
+
+3
+00:00:17.799 --> 00:00:19.559
+So who even are these new kids on the block?
+
+4
+00:00:19.559 --> 00:00:22.440
+Are they just data scientists in disguise?
+
+5
+00:00:22.440 --> 00:00:23.440
+What's up y'all?
+
+6
+00:00:23.440 --> 00:00:27.280
+I'm Isaac Key, and I'm a former data scientist turned AI engineer at IBM.
+
+7
+00:00:27.280 --> 00:00:30.959
+To answer these questions, I'm going to lay out four key areas in which the work of a
+
+8
+00:00:30.959 --> 00:00:36.799
+data scientist differs from an AI engineer, specifically a generative AI engineer.
+
+9
+00:00:36.799 --> 00:00:40.159
+But before I dive into these differences, we first have to understand more about what's
+
+10
+00:00:40.159 --> 00:00:42.319
+happening in the industry.
+
+11
+00:00:42.319 --> 00:00:47.919
+So traditionally, data scientists have always used AI models to do their analysis.
+
+12
+00:00:47.919 --> 00:00:49.080
+So what's changed?
+
+13
+00:00:49.080 --> 00:00:54.000
+Well, with the advent of generative AI, the boundaries of what AI can do are being pushed
+
+14
+00:00:54.000 --> 00:00:56.400
+in ways that we've never seen before.
+
+15
+00:00:56.400 --> 00:01:02.119
+And so these breakthroughs have been so groundbreaking that generative AI has split off into its
+
+16
+00:01:02.119 --> 00:01:06.040
+own distinct field, and we call that AI engineering.
+
+17
+00:01:06.040 --> 00:01:10.919
+Okay, so now that we understand the landscape, let's dive into the differences.
+
+18
+00:01:10.919 --> 00:01:15.519
+The first area of difference lies in the use cases.
+
+19
+00:01:15.519 --> 00:01:19.239
+So at a very high level, think of a data scientist as a data storyteller.
+
+20
+00:01:19.239 --> 00:01:23.959
+They take massive amounts of messy real world data, and they use mathematical models to
+
+21
+00:01:24.000 --> 00:01:27.040
+translate this data into insights.
+
+22
+00:01:27.040 --> 00:01:31.160
+On the other hand, think of an AI engineer as an AI system builder.
+
+23
+00:01:31.160 --> 00:01:36.680
+They use foundation models to build generative AI systems that help to transform business
+
+24
+00:01:36.680 --> 00:01:38.440
+processes.
+
+25
+00:01:38.440 --> 00:01:44.400
+So since data scientists are fantastic storytellers, they use a lot of descriptive analytics to
+
+26
+00:01:44.400 --> 00:01:46.040
+describe the past.
+
+27
+00:01:46.040 --> 00:01:51.680
+One example of this is through what's called exploratory data analysis, or EDA, which is
+
+28
+00:01:51.680 --> 00:01:55.599
+all about graphing the data and doing statistical inference.
+
+29
+00:01:55.599 --> 00:02:01.879
+They can also do this through what's called clustering, which group similar data points
+
+30
+00:02:01.879 --> 00:02:07.080
+based off of similar characteristics, such as, say, doing customer segmentation.
+
+31
+00:02:07.080 --> 00:02:11.000
+Now every good story has a reader trying to figure out what's going to come next, and
+
+32
+00:02:11.000 --> 00:02:14.320
+that's where predictive use cases comes in.
+
+33
+00:02:14.320 --> 00:02:18.800
+As opposed to a book, however, a data scientist does not have the end already written, so
+
+34
+00:02:18.800 --> 00:02:23.199
+they have to use what are called machine learning models to make their predictions.
+
+35
+00:02:23.199 --> 00:02:30.559
+An example of this is called regression models, which predict a numeric value such as, say,
+
+36
+00:02:30.559 --> 00:02:32.839
+a temperature or a revenue.
+
+37
+00:02:32.839 --> 00:02:38.440
+Another type of these models are classification models, which predict a categorical value
+
+38
+00:02:38.440 --> 00:02:41.559
+such as a success or a failure.
+
+39
+00:02:41.559 --> 00:02:47.300
+So putting on the AI engineering hat now, one of the main use cases that AI engineers
+
+40
+00:02:47.300 --> 00:02:52.259
+work on are called prescriptive use cases, which are all about choosing the best course
+
+41
+00:02:52.259 --> 00:02:54.080
+of action.
+
+42
+00:02:54.080 --> 00:03:01.220
+An example of this is a technique called decision optimization, which enables businesses to
+
+43
+00:03:01.220 --> 00:03:06.500
+assess a set of possible actions and then choose the most optimal path based off a set
+
+44
+00:03:06.500 --> 00:03:09.300
+of requirements or standards.
+
+45
+00:03:09.300 --> 00:03:14.220
+Another example of a prescriptive use case is through creating what are called recommendation
+
+46
+00:03:14.220 --> 00:03:16.779
+engines.
+
+47
+00:03:16.779 --> 00:03:22.460
+As an example, this can involve suggesting targeted marketing campaigns for a select
+
+48
+00:03:22.460 --> 00:03:24.559
+customer base.
+
+49
+00:03:24.559 --> 00:03:28.899
+In addition to prescriptive use cases, there are also generative use cases, hence the name
+
+50
+00:03:28.899 --> 00:03:30.619
+generative AI.
+
+51
+00:03:30.619 --> 00:03:36.020
+Now foundation models, which I will touch on more in a bit, enable the creation of what
+
+52
+00:03:36.020 --> 00:03:44.660
+are called intelligent assistants, for example, a coding assistant or a digital advisor.
+
+53
+00:03:44.660 --> 00:03:51.139
+They also enable the creation of chatbots, as an example, which enable conversational
+
+54
+00:03:51.139 --> 00:03:55.820
+search through information retrieval and the summarization of various content.
+
+55
+00:03:55.820 --> 00:03:59.820
+So after we have a use case identified, we need data.
+
+56
+00:03:59.820 --> 00:04:05.259
+Now people say that data is a new oil because like oil, you have to search for and find
+
+57
+00:04:05.259 --> 00:04:10.820
+the right data and then use the right processes to transform it into various products, which
+
+58
+00:04:10.820 --> 00:04:13.259
+then power various processes.
+
+59
+00:04:13.259 --> 00:04:19.540
+For a data scientist, the oil of choice is often structured data, aka tabular data.
+
+60
+00:04:19.540 --> 00:04:24.940
+Do note that data scientists still work with unstructured data, but not as much as AI engineers.
+
+61
+00:04:24.940 --> 00:04:32.980
+Now these tables are often in the order of hundreds to hundreds of thousands of observations,
+
+62
+00:04:32.980 --> 00:04:38.579
+and they require a lot of cleaning and preprocessing before the data can be modeled.
+
+63
+00:04:38.579 --> 00:04:44.940
+Some of the cleaning involved, for example, involves removing outliers or joining and
+
+64
+00:04:44.940 --> 00:04:52.179
+filtering on a new table, or even creating new features altogether.
+
+65
+00:04:52.179 --> 00:04:56.820
+This clean data is then used to train various machine learning models.
+
+66
+00:04:56.820 --> 00:05:02.299
+Now on the other hand, an AI engineer, for them, the oil of choice is mainly unstructured
+
+67
+00:05:02.299 --> 00:05:07.739
+data such as text, images, videos, audio files, etc.
+
+68
+00:05:07.899 --> 00:05:14.019
+Let's take a text-based foundation model called an LLM, or Large Language Model, as an example.
+
+69
+00:05:14.019 --> 00:05:20.380
+These models require anywhere between billions to trillions of tokens of text to be trained
+
+70
+00:05:20.380 --> 00:05:25.899
+on, which is a lot larger scale compared to traditional machine learning models.
+
+71
+00:05:25.899 --> 00:05:32.540
+This leads me to the next area of difference, which is the underlying models.
+
+72
+00:05:32.540 --> 00:05:40.019
+So the data science toolbox consists of hundreds of different models and different algorithms
+
+73
+00:05:40.019 --> 00:05:42.859
+that they can choose from.
+
+74
+00:05:42.859 --> 00:05:48.260
+Due to the nature of these models, each different use case requires gathering a different dataset,
+
+75
+00:05:48.260 --> 00:05:50.899
+and thus requires training a different model.
+
+76
+00:05:50.899 --> 00:05:58.779
+And so as a result, the scope of these individual models is a lot more narrow, meaning that
+
+77
+00:05:58.779 --> 00:06:03.579
+it's harder for them to generalize past the domain of data that they've been trained on.
+
+78
+00:06:03.579 --> 00:06:08.140
+And generally speaking, these models are a lot smaller in size in terms of the number
+
+79
+00:06:08.140 --> 00:06:15.299
+of parameters, they take less compute power to train and do inference, and they require
+
+80
+00:06:15.299 --> 00:06:21.940
+less time to train, anywhere between seconds to hours.
+
+81
+00:06:21.940 --> 00:06:26.700
+Now on the other hand, the generative AI toolbox is a lot less cluttered, and it really only
+
+82
+00:06:26.700 --> 00:06:32.140
+contains one type of model, and that is called the foundation model.
+
+83
+00:06:32.140 --> 00:06:36.140
+Now foundation models are revolutionary because they allow for one single type of model to
+
+84
+00:06:36.140 --> 00:06:40.619
+generalize to a wide range of tasks without having to be retrained.
+
+85
+00:06:40.619 --> 00:06:45.899
+Thus their scope is called more wide.
+
+86
+00:06:45.899 --> 00:06:51.799
+And due to the sophistication of these models, they are a lot larger in size, often billions
+
+87
+00:06:51.799 --> 00:06:59.519
+of parameters, they require a lot more compute power to train, we're talking hundreds to
+
+88
+00:06:59.519 --> 00:07:05.320
+thousands of GPUs, and they require a lot more training time.
+
+89
+00:07:05.320 --> 00:07:09.239
+Now we're talking anywhere between weeks to months.
+
+90
+00:07:09.239 --> 00:07:13.480
+Due to the differences in the intrinsic nature between traditional machine learning models
+
+91
+00:07:13.480 --> 00:07:20.160
+and foundation models, this also means that the underlying processes and techniques that
+
+92
+00:07:20.160 --> 00:07:24.179
+are used to develop solutions with these also differ.
+
+93
+00:07:24.179 --> 00:07:28.440
+So a typical data science process will look something like this.
+
+94
+00:07:28.440 --> 00:07:34.279
+You start off with a use case, and then from that use case, you pick the right data.
+
+95
+00:07:34.279 --> 00:07:39.760
+Then after that data is prepared, you use it to train and validate a model using techniques
+
+96
+00:07:39.760 --> 00:07:47.380
+such as feature engineering, cross-validation, or hyperparameter tuning, as an example.
+
+97
+00:07:47.380 --> 00:07:53.040
+This model then is deployed at some endpoint, for example in the cloud, to do real-time
+
+98
+00:07:53.040 --> 00:07:55.760
+prediction and inference.
+
+99
+00:07:55.760 --> 00:08:02.799
+Now on the other hand, the generative AI process also starts off with a use case, but then
+
+100
+00:08:02.799 --> 00:08:07.200
+we can skip directly to working with a pre-trained model.
+
+101
+00:08:07.200 --> 00:08:11.559
+And what makes this possible is a phenomenon called AI democratization, which is a big
+
+102
+00:08:11.559 --> 00:08:17.040
+fancy word that simply means making AI more widely accessible to everyday users.
+
+103
+00:08:17.040 --> 00:08:21.059
+Some of the best foundation models out there are published to open-source communities such
+
+104
+00:08:21.059 --> 00:08:26.140
+as Hugging Face, and since these models are so generalizable and so powerful out of the
+
+105
+00:08:26.140 --> 00:08:29.619
+box, they make it easy for developers to get started.
+
+106
+00:08:29.619 --> 00:08:34.739
+AI engineers interact with these foundation models via natural language instructions to
+
+107
+00:08:34.739 --> 00:08:42.780
+prompt them to do various tasks, and this process is known as prompt engineering.
+
+108
+00:08:42.780 --> 00:08:46.940
+Now prompt engineering can be used in conjunction with different frameworks to then build
+
+109
+00:08:46.940 --> 00:08:49.200
+larger AI systems.
+
+110
+00:08:49.200 --> 00:08:55.760
+An example of these frameworks include, as one, chaining different prompts together,
+
+111
+00:08:55.760 --> 00:09:02.260
+or doing what's called parameter-efficient fine-tuning, or PEFT, on domain-specific data,
+
+112
+00:09:02.260 --> 00:09:08.640
+or doing retrieval-augmented generation, aka RAG, to ground answers in truth, or even
+
+113
+00:09:08.640 --> 00:09:16.440
+by creating autonomous agents to reason through very complex multi-step problems.
+
+114
+00:09:16.440 --> 00:09:20.000
+So these are just a few of the examples of the building blocks that can be used to build
+
+115
+00:09:20.000 --> 00:09:22.900
+larger AI applications.
+
+116
+00:09:22.900 --> 00:09:29.059
+The last step is to then embed the AI in a larger system or workflow.
+
+117
+00:09:29.059 --> 00:09:35.780
+This can take on the form of creating assistants or virtual agents, building a larger application
+
+118
+00:09:35.780 --> 00:09:39.940
+with a UI, or even doing some sort of automation.
+
+119
+00:09:39.940 --> 00:09:44.440
+So okay, let's take a step back and let's look at all the differences at a very high level.
+
+120
+00:09:44.440 --> 00:09:48.979
+As we can see, the breakthroughs in generative AI underpin many of the differences in the
+
+121
+00:09:48.979 --> 00:09:55.380
+use cases, data, models, and processes that data scientists and AI engineers work on.
+
+122
+00:09:55.380 --> 00:09:59.260
+It's important to note that there is still overlap between the two fields.
+
+123
+00:09:59.260 --> 00:10:04.419
+For example, data scientists will still work on prescriptive use cases, or an AI engineer
+
+124
+00:10:04.419 --> 00:10:07.380
+will still work with structured data.
+
+125
+00:10:07.380 --> 00:10:11.820
+Regardless of these differences, both of these fields are continuing to evolve at a blazing
+
+126
+00:10:11.840 --> 00:10:17.840
+fast pace with new research papers, new models, new tools coming out every single day.
+
+127
+00:10:17.840 --> 00:10:22.760
+With data, AI, and a creative mind, really anything is possible with these.
+
+128
+00:10:22.760 --> 00:10:23.760
+Thank you for tuning in.
+
+129
+00:10:23.760 --> 00:10:25.119
+I hope this was helpful.
+
+130
+00:10:25.119 --> 00:10:26.559
+Until next time, peace.
