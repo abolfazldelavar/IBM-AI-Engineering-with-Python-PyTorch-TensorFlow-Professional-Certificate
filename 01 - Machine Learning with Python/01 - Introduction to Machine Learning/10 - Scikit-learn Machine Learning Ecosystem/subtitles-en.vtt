@@ -1,0 +1,289 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:11.260
+Welcome to Scikit-Learn Machine Learning Ecosystem.
+
+2
+00:00:11.260 --> 00:00:15.779
+After watching this video, you will be able to describe the machine learning ecosystem.
+
+3
+00:00:15.779 --> 00:00:22.100
+You will also be able to explain the features of the scikit-Learn library and how it works.
+
+4
+00:00:22.100 --> 00:00:26.540
+Imagine you developed a music streaming app that allows users to play and download music,
+
+5
+00:00:26.540 --> 00:00:29.340
+share music files, and create playlists.
+
+6
+00:00:29.340 --> 00:00:33.939
+To increase your app's user base, you collect information on your users' listening habits,
+
+7
+00:00:33.939 --> 00:00:38.659
+such as what songs they play, how long they listen to songs, and which songs they skip.
+
+8
+00:00:38.659 --> 00:00:42.380
+Once you've collected the information, you want to normalize it by finding inconsistent
+
+9
+00:00:42.380 --> 00:00:45.659
+data, missing values, and outliers.
+
+10
+00:00:45.659 --> 00:00:48.540
+Machine learning tools can generate this type of information.
+
+11
+00:00:48.540 --> 00:00:55.180
+They are useful for data collection, preprocessing, model training, model evaluation, model deployment,
+
+12
+00:00:55.180 --> 00:00:56.740
+and monitoring.
+
+13
+00:00:56.740 --> 00:01:02.139
+The machine learning, or ML ecosystem, refers to the interconnected tools, frameworks, libraries,
+
+14
+00:01:02.139 --> 00:01:08.580
+platforms, and processes that support developing, deploying, and managing machine learning models.
+
+15
+00:01:08.580 --> 00:01:12.540
+Python offers a wide variety of tools and libraries for machine learning.
+
+16
+00:01:12.540 --> 00:01:16.819
+Several open-sourced Python libraries comprise one of the most widely used ecosystems for
+
+17
+00:01:16.819 --> 00:01:18.139
+machine learning.
+
+18
+00:01:18.139 --> 00:01:23.220
+NumPy provides foundational machine learning support with its efficient numerical computations
+
+19
+00:01:23.300 --> 00:01:25.779
+on large multidimensional data arrays.
+
+20
+00:01:25.779 --> 00:01:32.019
+Pandas, built on NumPy and Matplotlib, is used for data analysis, visualization, cleaning,
+
+21
+00:01:32.019 --> 00:01:33.900
+and preparing data for machine learning.
+
+22
+00:01:33.900 --> 00:01:37.900
+Pandas uses versatile arrays called data frames to handle data.
+
+23
+00:01:37.900 --> 00:01:43.180
+SciPy, built on NumPy, is used for scientific computing and has modules for optimization,
+
+24
+00:01:43.180 --> 00:01:45.900
+integration, linear regression, and more.
+
+25
+00:01:45.900 --> 00:01:51.580
+Matplotlib is built on NumPy and has an extensive, highly customizable set of visualization tools.
+
+26
+00:01:51.620 --> 00:01:57.059
+Scikit-learn, built on NumPy, SciPy, and Matplotlib, is used for building classical machine learning
+
+27
+00:01:57.059 --> 00:01:58.059
+models.
+
+28
+00:01:58.059 --> 00:02:01.180
+Let's take a closer look at scikit-learn.
+
+29
+00:02:01.180 --> 00:02:05.059
+Scikit-learn is a free machine learning library for the Python programming language.
+
+30
+00:02:05.059 --> 00:02:11.059
+It has a wide, up-to-date selection of classification, regression, clustering, and dimensionality
+
+31
+00:02:11.059 --> 00:02:12.380
+reduction algorithms.
+
+32
+00:02:12.380 --> 00:02:18.139
+It's designed to work with the Python numerical and scientific libraries NumPy and SciPy.
+
+33
+00:02:18.699 --> 00:02:22.419
+It has excellent documentation and a large community support network.
+
+34
+00:02:22.419 --> 00:02:27.259
+Scikit-learn is constantly evolving with contributions from a community of thousands and is exceeded
+
+35
+00:02:27.259 --> 00:02:29.139
+only by Pandas.
+
+36
+00:02:29.139 --> 00:02:32.779
+Implementing machine learning models with scikit-learn is easy, with just a few lines
+
+37
+00:02:32.779 --> 00:02:34.619
+of Python code.
+
+38
+00:02:34.619 --> 00:02:38.300
+Most of the tasks that need to be done in a machine learning pipeline are already implemented
+
+39
+00:02:38.300 --> 00:02:43.740
+in scikit-learn, including data preprocessing tasks like data cleaning, scaling, feature
+
+40
+00:02:43.860 --> 00:02:49.580
+selection and feature extraction, train or test splitting, model setup and fitting, hyperparameter
+
+41
+00:02:49.580 --> 00:02:54.619
+tuning with cross-validation, prediction, evaluation, and exporting the model to be
+
+42
+00:02:54.619 --> 00:02:55.619
+used in production.
+
+43
+00:02:55.619 --> 00:03:01.460
+Here's an example of a basic machine learning workflow using the scikit-learn library.
+
+44
+00:03:01.460 --> 00:03:07.259
+Consider a data set X and a target variable Y, both stored as NumPy arrays.
+
+45
+00:03:07.259 --> 00:03:11.500
+Scikit-learn's pre-processing package provides several common utility functions and transformer
+
+46
+00:03:11.539 --> 00:03:14.539
+classes to help you prepare data for modeling.
+
+47
+00:03:14.539 --> 00:03:19.139
+For instance, this first code block scales your data by standardizing it.
+
+48
+00:03:19.139 --> 00:03:23.679
+In supervised learning, you want to split your data set into train and test sets to train
+
+49
+00:03:23.679 --> 00:03:27.220
+your model and then test the model's accuracy separately.
+
+50
+00:03:27.220 --> 00:03:31.259
+Scikit-learn can split arrays and matrices into random train and test subsets for you
+
+51
+00:03:31.259 --> 00:03:32.860
+in one line of code.
+
+52
+00:03:32.860 --> 00:03:36.460
+Here, 33% of the data is reserved for testing.
+
+53
+00:03:36.460 --> 00:03:42.259
+Next, you can instantiate a classifier model using a support vector classification algorithm.
+
+54
+00:03:42.259 --> 00:03:47.300
+This line of code generates a classification model object, called clf, and initializes
+
+55
+00:03:47.300 --> 00:03:49.940
+its parameters, gamma and C.
+
+56
+00:03:49.940 --> 00:03:54.619
+After initializing your model clf, you can train your model on the training data.
+
+57
+00:03:54.619 --> 00:03:58.339
+The clf model learns to predict the classes for unknown cases by passing the training
+
+58
+00:03:58.339 --> 00:04:00.539
+set to the fit method.
+
+59
+00:04:00.539 --> 00:04:03.160
+Then you can use the test data to generate predictions.
+
+60
+00:04:03.160 --> 00:04:07.300
+The result tells you the predicted class for each observation in the test set.
+
+61
+00:04:07.300 --> 00:04:12.800
+You can also use different metrics to evaluate your model accuracy, such as a confusion matrix
+
+62
+00:04:12.800 --> 00:04:16.239
+to compare the predicted and actual labels for the test set.
+
+63
+00:04:16.239 --> 00:04:21.480
+And finally, you can save your model as a pickle file and retrieve it whenever you like.
+
+64
+00:04:21.480 --> 00:04:26.160
+In this video, you have learned that a machine learning ecosystem refers to the interconnected
+
+65
+00:04:26.160 --> 00:04:32.540
+tools, frameworks, libraries, platforms, and processes that support developing, deploying,
+
+66
+00:04:32.540 --> 00:04:34.739
+and managing machine learning models.
+
+67
+00:04:34.739 --> 00:04:41.179
+It uses several Python tools and libraries, such as NumPy, Pandas, SciPy, Matplotlib,
+
+68
+00:04:41.179 --> 00:04:42.179
+and scikit-learn.
+
+69
+00:04:42.179 --> 00:04:48.140
+Scikit-learn is a free machine learning library for Python that uses classification, regression,
+
+70
+00:04:48.140 --> 00:04:51.579
+clustering, and dimensionality reduction algorithms.
+
+71
+00:04:51.579 --> 00:04:55.459
+Most tests required in a machine learning pipeline are already implemented in scikit-learn.
+
+72
+00:04:55.459 --> 00:05:00.540
+Finally, you learned the basic machine learning workflow using the scikit-learn library.

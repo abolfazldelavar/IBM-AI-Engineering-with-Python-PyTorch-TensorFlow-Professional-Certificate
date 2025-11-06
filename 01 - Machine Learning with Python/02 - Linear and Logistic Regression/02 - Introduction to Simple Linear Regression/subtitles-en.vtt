@@ -1,0 +1,257 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.920
+Welcome to this video on Introduction to Simple Linear Regression.
+
+2
+00:00:10.920 --> 00:00:16.159
+After watching this video, you will be able to describe simple linear regression and explain
+
+3
+00:00:16.159 --> 00:00:18.799
+how simple linear regression works.
+
+4
+00:00:18.799 --> 00:00:23.399
+Linear regression models a linear relationship between a continuous target variable and explanatory
+
+5
+00:00:23.399 --> 00:00:24.399
+features.
+
+6
+00:00:24.399 --> 00:00:27.780
+Consider this dataset related to CO2 emissions from different cars.
+
+7
+00:00:27.780 --> 00:00:32.619
+The dataset features engine size, number of cylinders, fuel consumption, and CO2 emissions
+
+8
+00:00:32.619 --> 00:00:34.060
+from various cars.
+
+9
+00:00:34.060 --> 00:00:37.979
+Given this dataset, linear regression can be used to predict a continuous value, such
+
+10
+00:00:37.979 --> 00:00:40.099
+as CO2 emissions of a car.
+
+11
+00:00:40.099 --> 00:00:44.819
+In simple linear regression, a single independent variable estimates the dependent variable.
+
+12
+00:00:44.819 --> 00:00:49.900
+For example, in our dataset, CO2 emission is predicted using the engine size variable.
+
+13
+00:00:49.900 --> 00:00:51.919
+Let's consider the same dataset again.
+
+14
+00:00:51.919 --> 00:00:56.159
+Let's plot engine size as an independent variable and CO2 emissions as the target value
+
+15
+00:00:56.159 --> 00:00:57.319
+that we want to predict.
+
+16
+00:00:57.319 --> 00:01:02.299
+A scatter plot clearly shows the correlation between variables where changes in one variable
+
+17
+00:01:02.299 --> 00:01:06.099
+explain or possibly cause changes in the other variable.
+
+18
+00:01:06.099 --> 00:01:10.379
+With simple linear regression, you can determine a best-fit line through the data.
+
+19
+00:01:10.379 --> 00:01:15.779
+As engine size increases, so does CO2 emissions, and the relationship is approximately linear.
+
+20
+00:01:15.779 --> 00:01:19.739
+You can use simple linear regression to predict the emission of an unknown car.
+
+21
+00:01:19.739 --> 00:01:26.040
+For example, the predicted emission for a sample car with an engine size of 2.4 is 214.
+
+22
+00:01:26.040 --> 00:01:32.180
+You can predict the target value, CO2 emissions, represented as the response variable, y-hat.
+
+23
+00:01:32.180 --> 00:01:36.059
+The independent variable, which in this case is engine size, is represented by the single
+
+24
+00:01:36.059 --> 00:01:38.260
+predictor variable, x1.
+
+25
+00:01:38.260 --> 00:01:41.260
+The model is represented as the equation of a line here.
+
+26
+00:01:41.260 --> 00:01:47.699
+y-hat is the predicted response expressed in terms of x1 using a y-intercept, theta
+
+27
+00:01:47.699 --> 00:01:50.419
+zero, and a slope, theta one.
+
+28
+00:01:50.419 --> 00:01:54.959
+Theta zero and theta one are called the coefficients of the linear regression model, selected by
+
+29
+00:01:54.980 --> 00:01:59.059
+the linear regression algorithm to determine a best-fit line.
+
+30
+00:01:59.059 --> 00:02:03.660
+Let's consider some new data points and check how well they align with the regression line.
+
+31
+00:02:03.660 --> 00:02:09.779
+Given a car with engine size x1 equals 5.4, its actual CO2 emission is 50, while its predicted
+
+32
+00:02:09.779 --> 00:02:12.979
+emission is y-hat equals 340.
+
+33
+00:02:12.979 --> 00:02:17.160
+Comparing the actual value to the predicted one, there's a 90-unit discrepancy.
+
+34
+00:02:17.160 --> 00:02:21.619
+The residual error is the vertical distance from the data point to the fitted regression line.
+
+35
+00:02:21.619 --> 00:02:26.279
+The average of all residual errors measures how poorly the regression line fits the data.
+
+36
+00:02:26.279 --> 00:02:31.660
+Mathematically, it can be shown by the equation mean squared error, shown as MSE.
+
+37
+00:02:31.660 --> 00:02:36.899
+Linear regression aims to find the line for minimizing the mean of all these residual errors.
+
+38
+00:02:36.899 --> 00:02:43.100
+This form of regression is commonly known as ordinary least squares regression, or OLS regression.
+
+39
+00:02:43.100 --> 00:02:49.240
+We can use two formulas to calculate the coefficients theta zero and theta one of the linear regression model.
+
+40
+00:02:49.240 --> 00:02:55.940
+The solution was derived independently by the mathematicians Gauss and Legendre in the early 1800s.
+
+41
+00:02:55.940 --> 00:03:01.979
+It requires that we calculate the means, y-bar and x-bar, of the independent and dependent variables.
+
+42
+00:03:01.979 --> 00:03:08.460
+The xi and yi in the equation for theta one refer to the ith values of x and y.
+
+43
+00:03:08.460 --> 00:03:14.660
+Here, you can calculate the x-bar as 3.0 and the y-bar as 226.2.
+
+44
+00:03:14.660 --> 00:03:19.419
+Then, going through the calculations, you'll find that theta one equals 39.
+
+45
+00:03:19.419 --> 00:03:24.320
+You can use this result to calculate the first parameter line intercept as 125.7.
+
+46
+00:03:24.320 --> 00:03:30.460
+So, these are the two parameters for the line, where theta zero is also called the bias coefficient
+
+47
+00:03:30.460 --> 00:03:34.300
+and theta one is the coefficient for the CO2 emission column.
+
+48
+00:03:34.300 --> 00:03:41.199
+Given the parameters of the linear equation, making a prediction is as simple as solving the equation for a particular input value.
+
+49
+00:03:41.199 --> 00:03:48.360
+For example, you can predict the CO2 emission from engine size for the automobile in record number 9 using the following equation.
+
+50
+00:03:48.360 --> 00:03:55.119
+For an engine size of 2.4, we can predict that the CO2 emission of the car would be 214.
+
+51
+00:03:55.119 --> 00:03:59.320
+The OLS regression method is helpful because it's easy to understand and interpret.
+
+52
+00:03:59.320 --> 00:04:03.119
+The method doesn't require any tuning and its solution is just a calculation.
+
+53
+00:04:03.119 --> 00:04:07.119
+This also makes OLS regression fast, especially for smaller datasets.
+
+54
+00:04:07.119 --> 00:04:14.000
+On the other hand, a linear model may be far too simplistic to capture complexity, such as a nonlinear relationship in the data.
+
+55
+00:04:14.000 --> 00:04:19.440
+Outliers can greatly reduce its accuracy, giving them far too much weight in the calculations.
+
+56
+00:04:19.440 --> 00:04:23.519
+In this video, we looked at several use cases of simple linear regression.
+
+57
+00:04:23.519 --> 00:04:27.799
+We learned how to predict a continuous value, such as a car's CO2 emissions.
+
+58
+00:04:27.799 --> 00:04:32.760
+In simple linear regression, a single independent variable estimates the dependent variable.
+
+59
+00:04:32.760 --> 00:04:37.160
+We also learned how to determine the best fit line through a chart showing regression values.
+
+60
+00:04:37.160 --> 00:04:43.760
+We learned about the concept of Mean Squared Error, or MSE, which measures how poorly the regression line fits the data.
+
+61
+00:04:43.760 --> 00:04:48.359
+Linear regression aims to find the line for minimizing the mean of all these residual errors.
+
+62
+00:04:48.359 --> 00:04:54.040
+This form of regression is commonly known as Ordinary Least Squares Regression, or OLS regression.
+
+63
+00:04:54.040 --> 00:04:58.119
+The OLS regression method is useful because it's easy to understand and interpret.
+
+64
+00:04:58.119 --> 00:05:03.959
+However, outliers can greatly reduce its accuracy, giving them far too much weight in the calculations.
