@@ -4,4 +4,7 @@ __pycache__
 credit*.csv
 data.xlsx
 
-
+*.jpg
+*.keras
+*dataSAT
+*.pth
